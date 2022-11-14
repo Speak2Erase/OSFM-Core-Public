@@ -20,8 +20,8 @@ else
         sudo apt install -y gcc make cmake vim ruby bison doxygen meson \
         libsdl2-dev libsdl2-image-dev libsdl2-ttf-dev libopenal-dev \
         libphysfs-dev libpixman-1-dev libwebp-dev libbz2-dev libvorbis-dev \
-        libogg-dev libsodium-dev libboost-dev libpng-dev libjpeg-dev \
-        libtiff-dev libsigc++-2.0-dev libgtk-3-dev libxfconf-0-dev \
+        libogg-dev libsodium-dev libboost-dev libboost-program-options-dev libpng-dev \
+        libjpeg-dev libtiff-dev libsigc++-2.0-dev libgtk-3-dev libxfconf-0-dev \
         libfreetype-dev libharfbuzz-dev
     fi
 
