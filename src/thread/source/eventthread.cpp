@@ -713,8 +713,6 @@ void EventThread::cleanup()
 	while (SDL_PollEvent(&event))
 		if ((event.type - usrIdStart) == REQUEST_MESSAGEBOX)
 			free(event.user.data1);
-
-	shState->otherView().close(); // Bad place to do this but I don't care
 }
 
 void EventThread::resetInputStates()
